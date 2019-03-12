@@ -1,0 +1,33 @@
+.body-background {
+    background-color: #a589fd01;
+}
+.main-title {
+    color: teal;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.secondary-title {
+    color: seagreen;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.center-data {
+    text-align: center;
+}
+
+.hr-line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid cadetblue;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.body-footer {
+    color: lightcoral;
+    font-size: 1.2vw;
+    text-align: center;
+}
