@@ -27,6 +27,10 @@
 }
 
 .body-footer {
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: lightcoral;
     font-size: 1.2vw;
     text-align: center;
