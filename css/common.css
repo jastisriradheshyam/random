@@ -35,3 +35,13 @@
     font-size: 1.2vw;
     text-align: center;
 }
+
+.box-center{
+    width: 50%;
+    margin: auto;
+}
+
+.box-code{
+    text-align: left; 
+    background-color: #a501;
+}
