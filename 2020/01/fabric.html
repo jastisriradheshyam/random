@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Hyperledger Fabric</title>
+    <link rel="stylesheet" href="../../css/common.css">
+</head>
+
+<body>
+
+    <body class="body-background">
+        <div class="main-title"> Hyperledger Fabric </div>
+        <div class="hr-line"></div>
+        <div>
+            <h1>Hyperledger Fabric Components</h1>
+            <ul>
+                <li> Organization CA ( Certificate Authority ) </li>
+                <li> Peer </li>
+                <li> Ordering Service </li>
+            </ul>
+        </div>
+        <div>
+            <h2>
+                Ordering Service
+            </h2>
+            <h3>
+                Responsibilities
+            </h3>
+            <ul>
+                <li>What Organizations are participating in the network</li>
+                <li>Channels in the network</li>
+                <li>Organizations participation in the Channels</li>
+                <li>Policies enforcements in the network</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Peer</h2>
+            <h3>
+                Responsibilities
+            </h3>
+            <ul>
+                <li>Transaction endorsement ( Endorser )</li>
+                <li>Maintaining Ledger ( Committer )</li>
+                <ul>
+                    <li>All peers are always committers.</li>
+                </ul>
+                <li>Broadcasting events to interested parties</li>
+                <ul>
+                    <li>Block Commit event</li>
+                    <li>Chaincode events</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <h2>CA ( Certificate Authority )</h2>
+            <h3>Responsibilities</h3>
+            <ul>
+                <li>Managing network actors credentials</li>
+                <ul>
+                    <li>peer/node, orderer, user/transactor </li>
+                </ul>
+                <li>Providing signed x.509 certificate</li>
+            </ul>
+        </div>
+        <div class="hr-line"></div>
+        <div>
+            <h2>References</h2>
+            <ul>
+                <li><a href="https://hyperledger.github.io/fabric-sdk-node/release-1.4/tutorial-app-dev-env-setup.html">Hyperledger Fabric SDK for node.js Tutorial: Setting up the Application Developer's Environment</a></li>
+            </ul>
+        </div>
+        <div class="body-footer"></div>
+        <div id="relative-path-root" hidden>../../</div>
+        <script src="../../js/common.js"></script>
+    </body>
+</html>
